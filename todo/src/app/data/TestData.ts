@@ -7,17 +7,17 @@ import {Task} from '../model/Task';
 export class TestData {
 
     static categories: Category[] = [
-        {id: 1, title: 'Работа'},
-        {id: 2, title: 'Семья'},
-        {id: 3, title: 'Учеба'},
-        {id: 4, title: 'Отдых'},
-        {id: 5, title: 'Спорт'},
-        {id: 6, title: 'Еда'},
-        {id: 7, title: 'Финансы'},
-        {id: 8, title: 'Гаджеты'},
-        {id: 9, title: 'Здоровье'},
-        {id: 10, title: 'Автомобиль'},
-        {id: 11, title: 'Ремонт'},
+        {id: 1, title: 'Работа', icon: 'work'},
+        {id: 2, title: 'Семья', icon: 'family_restroom'},
+        {id: 3, title: 'Учеба', icon: 'school'},
+        {id: 4, title: 'Отдых', icon: 'self_improvement'},
+        {id: 5, title: 'Спорт', icon: 'fitness_center'},
+        {id: 6, title: 'Еда', icon: 'restaurant'},
+        {id: 7, title: 'Финансы', icon: 'currency_bitcoin'},
+        {id: 8, title: 'Гаджеты', icon: 'devices_other'},
+        {id: 9, title: 'Здоровье', icon: 'emergency'},
+        {id: 10, title: 'Автомобиль', icon: 'directions_car'},
+        {id: 11, title: 'Ремонт', icon: 'construction'},
     ];
 
 
